@@ -850,5 +850,122 @@ class MagasinTest {
                 });
             }
         }
+
+        @Nested
+        @DisplayName("Testing for sellIn = 5 and quality = -3")
+        class testingForSellIn5AndQuality3 {
+
+            // GIVEN
+            int sellin = 5;
+            int quality = -3;
+
+            @Test
+            @DisplayName("Testing for sellIn = 5 and quality = -3 For Lambda")
+            void testingForSellIn5AndQuality3ForLambda() {
+
+                // GIVEN
+                Item[] items = new Item[]{new Item("Lambda", sellin, quality)};
+                Magasin app = new Magasin(items);
+
+                // WHEN
+                app.updateQuality();
+
+                String name = app.items[0].name;
+                int newSellin = app.items[0].sellIn;
+                int newQuality = app.items[0].quality;
+
+                save.saveText("\nTesting for sellIn = 5 and quality = -3");
+                save.saveText("Param : name Lambda, sellin " + sellin + ", quality " + quality);
+                save.saveText("Result : name Lambda, sellin " + newSellin + ", quality " + newQuality);
+
+                // THEN
+                assertAll(() -> {
+                    assertEquals("Lambda", app.items[0].name);
+                    assertEquals(4, app.items[0].sellIn);
+                    assertEquals(-3, app.items[0].quality);
+                });
+            }
+
+            @Test
+            @DisplayName("Testing for sellIn = 5 and quality = -3 For Comté")
+            void testingForSellIn5AndQuality3ForComté() {
+
+                // GIVEN
+                Item[] items = new Item[]{new Item("Comté", sellin, quality)};
+                Magasin app = new Magasin(items);
+
+                // WHEN
+                app.updateQuality();
+
+                String name = app.items[0].name;
+                int newSellin = app.items[0].sellIn;
+                int newQuality = app.items[0].quality;
+
+                save.saveText("\nTesting for sellIn = 5 and quality = -3");
+                save.saveText("Param : name Comté, sellin " + sellin + ", quality " + quality);
+                save.saveText("Result : name Comté, sellin " + newSellin + ", quality " + newQuality);
+
+                // THEN
+                assertAll(() -> {
+                    assertEquals("Comté", app.items[0].name);
+                    assertEquals(4, app.items[0].sellIn);
+                    assertEquals(-2, app.items[0].quality);
+                });
+            }
+
+            @Test
+            @DisplayName("Testing for sellIn = 5 and quality = -3 For Kryptonite")
+            void testingForSellIn5AndQuality3ForKryptonite() {
+
+                // GIVEN
+                Item[] items = new Item[]{new Item("Kryptonite", sellin, quality)};
+                Magasin app = new Magasin(items);
+
+                // WHEN
+                app.updateQuality();
+
+                String name = app.items[0].name;
+                int newSellin = app.items[0].sellIn;
+                int newQuality = app.items[0].quality;
+
+                save.saveText("\nTesting for sellIn = 5 and quality = -3");
+                save.saveText("Param : name Kryptonite, sellin " + sellin + ", quality " + quality);
+                save.saveText("Result : name Kryptonite, sellin " + newSellin + ", quality " + newQuality);
+
+                // THEN
+                assertAll(() -> {
+                    assertEquals("Kryptonite", app.items[0].name);
+                    assertEquals(5, app.items[0].sellIn);
+                    assertEquals(-3, app.items[0].quality);
+                });
+            }
+
+            @Test
+            @DisplayName("Testing for sellIn = 5 and quality = -3 For Pass VIP Concert")
+            void testingForSellIn5AndQuality3ForPassVIPConcert() {
+
+                // GIVEN
+                Item[] items = new Item[]{new Item("Pass VIP Concert", sellin, quality)};
+                Magasin app = new Magasin(items);
+
+                // WHEN
+                app.updateQuality();
+
+                String name = app.items[0].name;
+                int newSellin = app.items[0].sellIn;
+                int newQuality = app.items[0].quality;
+
+                save.saveText("\nTesting for sellIn = 5 and quality = -3");
+                save.saveText("Param : name Pass VIP Concert, sellin " + sellin + ", quality " + quality);
+                save.saveText("Result : name Pass VIP Concert, sellin " + newSellin + ", quality " + newQuality);
+
+                // THEN
+                assertAll(() -> {
+                    assertEquals("Pass VIP Concert", app.items[0].name);
+                    assertEquals(4, app.items[0].sellIn);
+                    assertEquals(0, app.items[0].quality);
+                });
+            }
+        }
     }
 }
