@@ -148,7 +148,5 @@ class MagasinTest {
                 });
             }
         }
-
-
     }
 }

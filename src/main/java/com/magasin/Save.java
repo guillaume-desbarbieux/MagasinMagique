@@ -6,7 +6,7 @@ import java.io.IOException;
 
 public class Save {
     private final File dossierData = new File("data");
-    private final File goldenMaster = new File(dossierData, "goldenMaster.txt");
+    private final File goldenMaster = new File(dossierData, "save.txt");
 
 
     public void saveText(String text){
