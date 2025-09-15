@@ -27,23 +27,33 @@ public class Main {
                 new Item("Lambda", 10, 40),
                 new Item("Comté", 10, 40),
                 new Item("Kryptonite", 10, 40),
-                new Item("Pass VIP Concert", 10, 40)};
+                new Item("Pass VIP Concert", 10, 40),
+
+                new Item("Lambda", 13, 60),
+                new Item("Comté", 13, 60),
+                new Item("Kryptonite", 13, 60),
+                new Item("Pass VIP Concert", 13, 60),
+
+                new Item("Lambda", 13, 30),
+                new Item("Comté", 13, 30),
+                new Item("Kryptonite", 13, 30),
+                new Item("Pass VIP Concert", 13, 30)};
 
         Magasin app = new Magasin(items);
         int[][] results = new int[items.length][15];
         int[][] sellin = new int[items.length][15];
         for (int day = 0; day < 15; day++) {
-           for (int itemIndex = 0; itemIndex < items.length; itemIndex++) {
+            for (int itemIndex = 0; itemIndex < items.length; itemIndex++) {
                 results[itemIndex][day] = app.items[itemIndex].quality;
-               sellin[itemIndex][day] = app.items[itemIndex].sellIn;
-           }
-           app.updateQuality();
+                sellin[itemIndex][day] = app.items[itemIndex].sellIn;
+            }
+            app.updateQuality();
         }
 
 
         System.out.println("\n\n Evolution de la qualité");
         System.out.printf("%-15s", "Jours");
-        for (int day = 1 ; day < 16 ; day++) {
+        for (int day = 1; day < 16; day++) {
             System.out.printf("%5d", day);
         }
         System.out.println();
@@ -58,7 +68,7 @@ public class Main {
         }
         System.out.println("\n\n Evolution du SellIn");
         System.out.printf("%-15s", "Jours");
-        for (int day = 1 ; day < 16 ; day++) {
+        for (int day = 1; day < 16; day++) {
             System.out.printf("%5d", day);
         }
         System.out.println();
