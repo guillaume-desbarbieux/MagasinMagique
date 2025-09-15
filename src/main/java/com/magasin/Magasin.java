@@ -11,6 +11,9 @@ class Magasin {
         for (Item item : items) {
             if (item.name.equals("Kryptonite")) continue;
 
+
+
+
             if (item.name.equals("Comté") || item.name.equals("Pass VIP Concert")) {
 
                 if (item.quality < 50) {
@@ -35,18 +38,20 @@ class Magasin {
                     item.quality--;
                 }
             }
-            item.sellIn = item.sellIn - 1;
+
+            item.sellIn--;
 
             if (item.sellIn < 0) {
+
+                if (item.name.equals("Pass VIP Concert"))
+                    item.quality = 0;
+
                 if (item.name.equals("Comté") && item.quality < 50)
                     item.quality++;
-                else {
-                    if (item.name.equals("Pass VIP Concert")) {
-                        item.quality = 0;
-                    } else if (item.quality > 0)
+
+                else if (item.quality > 0)
                         item.quality--;
 
-                }
             }
         }
     }
