@@ -1,0 +1,240 @@
+
+Testing for sellIn = 0 and quality = 10
+Param : name Comté, sellin 0, quality 10
+Result : name Comté, sellin -1, quality 12
+
+Testing for sellIn = 0 and quality = 10
+Param : name Lambda, sellin 0, quality 10
+Result : name Lambda, sellin -1, quality 8
+
+Testing for sellIn = 0 and quality = 10
+Param : name Kryptonite, sellin 0, quality 10
+Result : name Kryptonite, sellin 0, quality 10
+
+Testing for sellIn = 0 and quality = 10
+Param : name Pass VIP Concert, sellin 0, quality 10
+Result : name Pass VIP Concert, sellin -1, quality 0
+
+Testing for sellIn = 0 and quality = 10
+Param : name Comté, sellin 0, quality 10
+Result : name Comté, sellin -1, quality 12
+
+Testing for sellIn = 0 and quality = 10
+Param : name Lambda, sellin 0, quality 10
+Result : name Lambda, sellin -1, quality 8
+
+Testing for sellIn = 0 and quality = 10
+Param : name Kryptonite, sellin 0, quality 10
+Result : name Kryptonite, sellin 0, quality 10
+
+Testing for sellIn = 0 and quality = 10
+Param : name Pass VIP Concert, sellin 0, quality 10
+Result : name Pass VIP Concert, sellin -1, quality 0
+
+Testing for sellIn = 13 and quality = 30
+Param : name Kryptonite, sellin 13, quality 30
+Result : name Kryptonite, sellin 13, quality 30
+
+Testing for sellIn = 13 and quality = 30
+Param : name Lambda, sellin 13, quality 30
+Result : name Lambda, sellin 12, quality 29
+
+Testing for sellIn = 13 and quality = 30
+Param : name Pass VIP Concert, sellin 13, quality 30
+Result : name Pass VIP Concert, sellin 12, quality 31
+
+Testing for sellIn = 13 and quality = 30
+Param : name Comté, sellin 13, quality 30
+Result : name Comté, sellin 12, quality 31
+
+Testing for sellIn = 10 and quality = 0
+Param : name Comté, sellin 10, quality 0
+Result : name Comté, sellin 9, quality 1
+
+Testing for sellIn = 10 and quality = 0
+Param : name Pass VIP Concert, sellin 10, quality 0
+Result : name Pass VIP Concert, sellin 9, quality 2
+
+Testing for sellIn = 10 and quality = 0
+Param : name Kryptonite, sellin 10, quality 0
+Result : name Kryptonite, sellin 10, quality 0
+
+Testing for sellIn = 10 and quality = 0
+Param : name Lambda, sellin 10, quality 0
+Result : name Lambda, sellin 9, quality 0
+
+Testing for sellIn = 5 and quality = 20
+Param : name Kryptonite, sellin 5, quality 20
+Result : name Kryptonite, sellin 5, quality 20
+
+Testing for sellIn = 5 and quality = 20
+Param : name Comté, sellin 5, quality 20
+Result : name Comté, sellin 4, quality 21
+
+Testing for sellIn = 5 and quality = 20
+Param : name Pass VIP Concert, sellin 5, quality 20
+Result : name Pass VIP Concert, sellin 4, quality 23
+
+Testing for sellIn = 5 and quality = 20
+Param : name Lambda, sellin 5, quality 20
+Result : name Lambda, sellin 4, quality 19
+
+Testinf for max quality = 60
+Param : name Pass VIP Concert, sellin 1, quality 60
+Result : name Pass VIP Concert, sellin 0, quality 60
+
+Testinf for max quality = 60
+Param : name Comté, sellin 1, quality 60
+Result : name Comté, sellin 0, quality 60
+
+Testinf for max quality = 60
+Param : name Lambda, sellin 1, quality 60
+Result : name Lambda, sellin 0, quality 59
+
+Testinf for max quality = 60
+Param : name Kryptonite, sellin 1, quality 60
+Result : name Kryptonite, sellin 1, quality 60
+
+Testing for sellIn = 3 and quality = 49
+Param : name Pass VIP Concert, sellin 3, quality 49
+Result : name Pass VIP Concert, sellin 2, quality 50
+
+Testing for sellIn = 3 and quality = 49
+Param : name Comté, sellin 3, quality 49
+Result : name Comté, sellin 2, quality 50
+
+Testing for sellIn = 3 and quality = 49
+Param : name Lambda, sellin 3, quality 49
+Result : name Lambda, sellin 2, quality 48
+
+Testing for sellIn = 3 and quality = 49
+Param : name Kryptonite, sellin 3, quality 49
+Result : name Kryptonite, sellin 3, quality 49
+
+Testing for sellIn = -5 and quality = 25
+Param : name Comté, sellin -5, quality 25
+Result : name Comté, sellin -6, quality 27
+
+Testing for sellIn = -5 and quality = 25
+Param : name Kryptonite, sellin -5, quality 25
+Result : name Kryptonite, sellin -5, quality 25
+
+Testing for sellIn = -5 and quality = 25
+Param : name Pass VIP Concert, sellin -5, quality 25
+Result : name Pass VIP Concert, sellin -6, quality 0
+
+Testing for sellIn = -5 and quality = 25
+Param : name Lambda, sellin -5, quality 25
+Result : name Lambda, sellin -6, quality 23
+
+Testing for sellIn = -5 and quality = 25
+Param : name Comté, sellin -5, quality 25
+Result : name Comté, sellin -6, quality 27
+
+Testing for sellIn = -5 and quality = 25
+Param : name Kryptonite, sellin -5, quality 25
+Result : name Kryptonite, sellin -5, quality 25
+
+Testing for sellIn = -5 and quality = 25
+Param : name Pass VIP Concert, sellin -5, quality 25
+Result : name Pass VIP Concert, sellin -6, quality 0
+
+Testing for sellIn = -5 and quality = 25
+Param : name Lambda, sellin -5, quality 25
+Result : name Lambda, sellin -6, quality 23
+
+Testing for sellIn = 3 and quality = 49
+Param : name Pass VIP Concert, sellin 3, quality 49
+Result : name Pass VIP Concert, sellin 2, quality 50
+
+Testing for sellIn = 3 and quality = 49
+Param : name Comté, sellin 3, quality 49
+Result : name Comté, sellin 2, quality 50
+
+Testing for sellIn = 3 and quality = 49
+Param : name Lambda, sellin 3, quality 49
+Result : name Lambda, sellin 2, quality 48
+
+Testing for sellIn = 3 and quality = 49
+Param : name Kryptonite, sellin 3, quality 49
+Result : name Kryptonite, sellin 3, quality 49
+
+Testinf for max quality = 60
+Param : name Pass VIP Concert, sellin 1, quality 60
+Result : name Pass VIP Concert, sellin 0, quality 60
+
+Testinf for max quality = 60
+Param : name Comté, sellin 1, quality 60
+Result : name Comté, sellin 0, quality 60
+
+Testinf for max quality = 60
+Param : name Lambda, sellin 1, quality 60
+Result : name Lambda, sellin 0, quality 59
+
+Testinf for max quality = 60
+Param : name Kryptonite, sellin 1, quality 60
+Result : name Kryptonite, sellin 1, quality 60
+
+Testing for sellIn = 5 and quality = 20
+Param : name Kryptonite, sellin 5, quality 20
+Result : name Kryptonite, sellin 5, quality 20
+
+Testing for sellIn = 5 and quality = 20
+Param : name Comté, sellin 5, quality 20
+Result : name Comté, sellin 4, quality 21
+
+Testing for sellIn = 5 and quality = 20
+Param : name Pass VIP Concert, sellin 5, quality 20
+Result : name Pass VIP Concert, sellin 4, quality 23
+
+Testing for sellIn = 5 and quality = 20
+Param : name Lambda, sellin 5, quality 20
+Result : name Lambda, sellin 4, quality 19
+
+Testing for sellIn = 10 and quality = 0
+Param : name Comté, sellin 10, quality 0
+Result : name Comté, sellin 9, quality 1
+
+Testing for sellIn = 10 and quality = 0
+Param : name Pass VIP Concert, sellin 10, quality 0
+Result : name Pass VIP Concert, sellin 9, quality 2
+
+Testing for sellIn = 10 and quality = 0
+Param : name Kryptonite, sellin 10, quality 0
+Result : name Kryptonite, sellin 10, quality 0
+
+Testing for sellIn = 10 and quality = 0
+Param : name Lambda, sellin 10, quality 0
+Result : name Lambda, sellin 9, quality 0
+
+Testing for sellIn = 13 and quality = 30
+Param : name Kryptonite, sellin 13, quality 30
+Result : name Kryptonite, sellin 13, quality 30
+
+Testing for sellIn = 13 and quality = 30
+Param : name Lambda, sellin 13, quality 30
+Result : name Lambda, sellin 12, quality 29
+
+Testing for sellIn = 13 and quality = 30
+Param : name Pass VIP Concert, sellin 13, quality 30
+Result : name Pass VIP Concert, sellin 12, quality 31
+
+Testing for sellIn = 13 and quality = 30
+Param : name Comté, sellin 13, quality 30
+Result : name Comté, sellin 12, quality 31
+
+Testing for sellIn = 0 and quality = 10
+Param : name Comté, sellin 0, quality 10
+Result : name Comté, sellin -1, quality 12
+
+Testing for sellIn = 0 and quality = 10
+Param : name Lambda, sellin 0, quality 10
+Result : name Lambda, sellin -1, quality 8
+
+Testing for sellIn = 0 and quality = 10
+Param : name Kryptonite, sellin 0, quality 10
+Result : name Kryptonite, sellin 0, quality 10
+
+Testing for sellIn = 0 and quality = 10
+Param : name Pass VIP Concert, sellin 0, quality 10
+Result : name Pass VIP Concert, sellin -1, quality 0
