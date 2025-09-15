@@ -9,6 +9,8 @@ class Magasin {
 
     public void updateQuality() {
         for (Item item : items) {
+            if (item.name.equals("Kryptonite")) continue;
+
             if (item.name.equals("Comté") || item.name.equals("Pass VIP Concert")) {
 
                 if (item.quality < 50) {
@@ -32,24 +34,24 @@ class Magasin {
             } else {
 
                 if (item.quality > 0) {
-                    if (!item.name.equals("Kryptonite")) {
+
                         item.quality = item.quality - 1;
-                    }
+
                 }
 
             }
 
-            if (!item.name.equals("Kryptonite")) {
+
                 item.sellIn = item.sellIn - 1;
-            }
+
 
             if (item.sellIn < 0) {
                 if (!item.name.equals("Comté")) {
                     if (!item.name.equals("Pass VIP Concert")) {
                         if (item.quality > 0) {
-                            if (!item.name.equals("Kryptonite")) {
+
                                 item.quality = item.quality - 1;
-                            }
+
                         }
                     } else {
                         item.quality = item.quality - item.quality;
