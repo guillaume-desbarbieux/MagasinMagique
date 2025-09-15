@@ -63,7 +63,7 @@ class MagasinTest {
                 assertAll(() -> {
                     assertEquals("Lambda", app.items[0].name);
                     assertEquals( - 1, app.items[0].sellIn);
-                    assertEquals(7, app.items[0].quality);
+                    assertEquals(8, app.items[0].quality);
                 });
             }
         
